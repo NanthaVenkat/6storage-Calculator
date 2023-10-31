@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+input:focus {
+    outline: none;
+}
+
+* {
+    font-family: poppins;
+    color: #FFF;
+}
+
+.calc-container {
+    width: 80%;
+    margin: auto;
+    background-color: #27739F;
+    padding: 1rem;
+    border-radius: .5rem;
+    position: relative;
+}
+
+.table-wrapper {
+    display: flex;
+}
+
+.calc-title {
+    text-align: center;
+}
+
+.cal-table {
+    width: 50%;
+    padding: .3rem;
+    font-weight: 800;
+}
+
+.calc-input span {
+    font-size: 1.5rem;
+    color: #2a299e;
+}
+
+.cal-title h2 {
+    margin: 4px;
+}
+
+.calc-input input {
+    color: #2a299e;
+    font-size: 1.2rem;
+    font-weight: 800;
+    padding: .2rem;
+}
